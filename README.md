@@ -50,21 +50,21 @@
 
 在bing~~《小 心 百 度》~~上搜索vscode，点进[官方网站](https://code.visualstudio.com)
 
-![搜索](./images/搜索.jpg)
+![搜索](./images/search.jpg)
 
 进来后，点击右上角的[Download]([Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download))
 
-![](./images/官网.png)
+![](./images/guanwang.png)
 
 点击Windows即可下载
 
-![](./images/下载vscode.jpg)
+![](./images/downloadvscode.jpg)
 
 ### 2.2.安装vscode
 
 打开刚才下载的 *VSCodeUserSetup-x64.exe* 文件，将选项全部选中
 
-![](./images/安装vscode.jpg)
+![](./images/installvscode.jpg)
 
 笔者电脑中当前用户下已有vscode，如果是新用户，在此之前会有选择安装路径这一步，我 **强烈建议** 将vscode **安装在其他盘** ，并且 **路径中不要有中文and空格** 。
 
@@ -108,13 +108,13 @@
 
 要不这部分先咕咕咕吧，直接用上边的蓝色链接进北大网盘，就可以下载了，速度也很感人，是真的很感人！
 
-![](./images/下载MinGW网盘.jpg)
+![](./images/MinGWdisk.jpg)
 
 zip和7z都可以，东西是一样的，7z很小，但万一电脑没有解压缩软件就寄了，就只能下zip了  
 
 这里也贴出[Github链接]([Releases · niXman/mingw-builds-binaries (github.com)](https://github.com/niXman/mingw-builds-binaries/releases))，如下图
 
-![](./images/下载MinGWgithub.jpg)
+![](./images/MinGWgithub.jpg)
 
 建议下载红框内的ucrt版本。
 
@@ -178,7 +178,7 @@ C++环境需要 .vscode 文件夹下的 *c_cpp_properties.json,tasks.json,launch
 
 如果你这时候在目录下新建一个 `helloworld.cpp` 文件，写好了 `helloworld` ，摁下 `Ctrl+F5` ，这时会让你选择这个  
 
-![](./images/选择配置.jpg)
+![](./images/peizhi.jpg)
 
 选择 g++.exe` ，会在当前文件夹的 .vscode 文件夹下生成一个 *tasks.json* 文件
 
@@ -243,11 +243,13 @@ C++环境需要 .vscode 文件夹下的 *c_cpp_properties.json,tasks.json,launch
 
 #### 4.3.2.launch.json
 
-![](./images/调试.jpg)
+![](./images/debug.jpg)
 
 
 
 点击这个甲壳虫小三角，然后点击 *创建launch.json文件* ，选择 GDB ，会生成一个空的 *launch.json* 文件。  
+
+![](./images/debugger.jpg)
 
 
 

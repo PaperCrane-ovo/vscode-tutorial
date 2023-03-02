@@ -114,7 +114,7 @@ zip和7z都可以，东西是一样的，7z很小，但万一电脑没有解压�
 
 这里也贴出[Github链接]([Releases · niXman/mingw-builds-binaries (github.com)](https://github.com/niXman/mingw-builds-binaries/releases))，如下图
 
-![](./images\下载MinGWgithub.jpg)
+![](./images/下载MinGWgithub.jpg)
 
 建议下载红框内的ucrt版本。
 

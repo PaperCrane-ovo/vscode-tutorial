@@ -1,0 +1,4 @@
+{
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.default.cppStandard": "c++23"
+}
